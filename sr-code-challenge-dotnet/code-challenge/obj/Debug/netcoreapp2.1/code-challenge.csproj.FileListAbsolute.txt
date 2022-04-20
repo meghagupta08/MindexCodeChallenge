@@ -26,3 +26,14 @@ C:\Users\kritz\Downloads\sr-code-challenge-dotnet_reworked\sr-code-challenge-dot
 C:\Users\kritz\Downloads\sr-code-challenge-dotnet_reworked\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.AssemblyInfo.cs
 C:\Users\kritz\Downloads\sr-code-challenge-dotnet_reworked\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.dll
 C:\Users\kritz\Downloads\sr-code-challenge-dotnet_reworked\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.pdb
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\bin\Debug\netcoreapp2.1\code-challenge.deps.json
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\bin\Debug\netcoreapp2.1\code-challenge.runtimeconfig.json
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\bin\Debug\netcoreapp2.1\code-challenge.runtimeconfig.dev.json
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\bin\Debug\netcoreapp2.1\code-challenge.dll
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\bin\Debug\netcoreapp2.1\code-challenge.pdb
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.csprojAssemblyReference.cache
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.csproj.CoreCompileInputs.cache
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.AssemblyInfoInputs.cache
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.AssemblyInfo.cs
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.dll
+C:\MeghasWork\MindexCodeChallenge\MindexCodeChallenge\sr-code-challenge-dotnet\code-challenge\obj\Debug\netcoreapp2.1\code-challenge.pdb

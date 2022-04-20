@@ -32,26 +32,54 @@ namespace challenge.Repositories
             return _employeeContext.Employees.SingleOrDefault(e => e.EmployeeId == id);
         }
 
+        // public ReportingStructure GetReportingStructureById(string id)
+        // {
+        //     ReportingStructure empReporting = new ReportingStructure();
+        //     var empList = _employeeContext.Employees.ToList();
+        //     empReporting.employee = empList.SingleOrDefault(e => e.EmployeeId == id);
+        //     if (empReporting.employee.DirectReports != null)
+        //     {
+        //         empReporting.numberOfReports = empReporting.employee.DirectReports.Count;
+        //         foreach (var item in empReporting.employee.DirectReports)
+        //         {
+        //             if (item.DirectReports != null && item.DirectReports.Count > 0)
+        //             {
+        //                 empReporting.numberOfReports = empReporting.numberOfReports + item.DirectReports.Count;
+        //                 continue;
+        //             }
+        //         }
+        //     }
+        //     return empReporting;
+        // }
+
+
         public ReportingStructure GetReportingStructureById(string id)
         {
             ReportingStructure empReporting = new ReportingStructure();
             var empList = _employeeContext.Employees.ToList();
             empReporting.employee = empList.SingleOrDefault(e => e.EmployeeId == id);
-            if (empReporting.employee.DirectReports != null)
-            {
-                empReporting.numberOfReports = empReporting.employee.DirectReports.Count;
-                foreach (var item in empReporting.employee.DirectReports)
-                {
-                    if (item.DirectReports != null && item.DirectReports.Count > 0)
-                    {
-                        empReporting.numberOfReports = empReporting.numberOfReports + item.DirectReports.Count;
-                        continue;
-                    }
-                }
-            }
+            empReporting.numberOfReports = callDepth(empReporting.employee.DirectReports);
             return empReporting;
         }
 
+
+        public int callDepth(List<Employee> directReports)
+        {
+            if (directReports == null)
+            {
+                return 0;
+            }
+            int depth = directReports.Count;
+            foreach (var item in directReports)
+            {
+                //if (item.DirectReports != null)
+                //{
+                depth += callDepth(item.DirectReports);
+                //}
+
+            }
+            return depth;
+        }
         public Task SaveAsync()
         {
             return _employeeContext.SaveChangesAsync();

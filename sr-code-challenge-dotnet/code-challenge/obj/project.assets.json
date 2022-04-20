@@ -13118,11 +13118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kritz\\Downloads\\sr-code-challenge-dotnet_reworked\\sr-code-challenge-dotnet\\code-challenge\\code-challenge.csproj",
+      "projectUniqueName": "c:\\MeghasWork\\MindexCodeChallenge\\MindexCodeChallenge\\sr-code-challenge-dotnet\\code-challenge\\code-challenge.csproj",
       "projectName": "code-challenge",
-      "projectPath": "C:\\Users\\kritz\\Downloads\\sr-code-challenge-dotnet_reworked\\sr-code-challenge-dotnet\\code-challenge\\code-challenge.csproj",
+      "projectPath": "c:\\MeghasWork\\MindexCodeChallenge\\MindexCodeChallenge\\sr-code-challenge-dotnet\\code-challenge\\code-challenge.csproj",
       "packagesPath": "C:\\Users\\kritz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kritz\\Downloads\\sr-code-challenge-dotnet_reworked\\sr-code-challenge-dotnet\\code-challenge\\obj\\",
+      "outputPath": "c:\\MeghasWork\\MindexCodeChallenge\\MindexCodeChallenge\\sr-code-challenge-dotnet\\code-challenge\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
